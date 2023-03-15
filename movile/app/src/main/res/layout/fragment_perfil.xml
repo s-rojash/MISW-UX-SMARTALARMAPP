@@ -8,19 +8,19 @@
     android:background="@android:color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="400dp"
-        android:layout_height="834dp"
+        android:layout_width="408dp"
+        android:layout_height="885dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="1dp">
 
         <Button
             android:id="@+id/button4"
-            android:layout_width="345dp"
-            android:layout_height="69dp"
+            android:layout_width="333dp"
+            android:layout_height="70dp"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="72dp"
+            android:layout_marginBottom="90dp"
             android:background="@drawable/btn_cafe"
             android:onClick="abrirMain"
             android:text="Cerrar sesión"
@@ -30,7 +30,7 @@
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.507"
+            app:layout_constraintHorizontal_bias="0.508"
             app:layout_constraintStart_toStartOf="parent" />
 
         <View
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="65dp"
             android:text="Perfil"
             android:textColor="@color/purple_500"
             android:textSize="14pt"

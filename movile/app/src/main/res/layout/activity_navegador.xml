@@ -8,8 +8,8 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
-        android:layout_width="411dp"
-        android:layout_height="72dp"
+        android:layout_width="417dp"
+        android:layout_height="73dp"
         android:background="@color/purple_500"
         app:itemIconTint="@color/white"
         app:itemTextColor="#FFFFFF"
@@ -21,8 +21,8 @@
     <fragment
         android:id="@+id/nav_host_fragment_activity_navegador"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="407dp"
-        android:layout_height="820dp"
+        android:layout_width="411dp"
+        android:layout_height="823dp"
         app:defaultNavHost="true"
         app:layout_constraintBottom_toTopOf="@+id/nav_view"
         app:layout_constraintLeft_toLeftOf="parent"
