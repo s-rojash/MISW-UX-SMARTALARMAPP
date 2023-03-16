@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('https://fonts.googleapis.com/css?family=Segoe+UI&display=swap');
+
+  font-family: 'Noto-sans bold';
+  src: url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif }
+
+mat-typography {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+

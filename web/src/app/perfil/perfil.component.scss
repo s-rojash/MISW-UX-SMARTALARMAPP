@@ -1,0 +1,128 @@
+.input-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.input-icon input[type="text"] {
+  padding-left: 40px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  margin: 0 auto;
+}
+
+.input-icon .icon {
+  position: absolute;
+  top: 15px;
+  border:10px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  z-index: 1;
+  background-image: url('/user.png'); /* Ruta de la imagen del icono */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.input-icon .icon-passwd {
+  position: absolute;
+  top: 15px;
+  border:10px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  z-index: 1;
+  background-image: url('./passw.png'); /* Ruta de la imagen del icono */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.input-icon .icon-correo {
+  position: absolute;
+  top: 15px;
+  border:10px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  z-index: 1;
+  background-image: url('./correo.png'); /* Ruta de la imagen del icono */
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  margin: 100px auto 0;
+  padding: 20px;
+  width: 417px;
+  height: 584px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+
+.container div:first-child {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top:  80px;
+  margin-bottom: 0px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: black;
+  margin: 20px 0;
+  margin-bottom: 80px;
+}
+
+
+
+
+
+.button-container {
+  display: flex;
+
+}
+
+.cerrar button, .actualizar button {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  width: 163.8px;
+  height: 51.96px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cerrar button {
+  background-color: #D94333;
+  border-color: #D94333;
+  margin-left: 30px;
+}
+
+.actualizar button {
+  background-color: black;
+  margin-top: 80px;
+  margin-left: 40px;
+}
