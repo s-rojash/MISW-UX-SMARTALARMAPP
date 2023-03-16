@@ -12,7 +12,7 @@ bash
 Una vez que hayas clonado el repositorio, abre android studio hasta la carpeta "movile"
 
 # Paso 3: Crear emulador
-Se recomienda crear el emulador con Phone - Pixel 6 Pro, ya que este fue diseñado con las dimenciones de este equipo la cuales son de 6,4" pulgadas.
+Se recomienda crear el emulador con Phone - Pixel 6 Pro, ya que este fue diseñado con las dimensiones de este equipo la cuales son de 6,4" pulgadas.
 
 # Paso 3: Correr la aplicaión
 Finalmente, puedes correr la aplicación movil en tu computadora utilizando el boton de Run 'App'
