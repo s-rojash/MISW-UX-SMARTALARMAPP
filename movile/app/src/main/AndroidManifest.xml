@@ -12,7 +12,22 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".AgregarRecordatorioActivity"
+            android:name=".ui.ui.recordatorio.recordatorio.MapaRecordatorioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.recordatorio.recordatorio.EtiquetaRecordatorioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.recordatorio.recordatorio.CategoriaRecordatorioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.recordatorio.recordatorio.SonidoRecordatorioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.recordatorio.recordatorio.RepetirRecordatorioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.recordatorio.recordatorio.AgregarRecordatorioActivity"
             android:exported="false" />
         <activity
             android:name=".ui.ui.alarma.alarma.LugarAlarmaActivity"

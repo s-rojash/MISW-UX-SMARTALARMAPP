@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ui.recordatorio.recordatorio.AgregarRecordatorioActivity">
+    tools:context=".ui.ui.recordatorio.recordatorio.CategoriaRecordatorioActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         <FrameLayout
             android:id="@+id/frameLayout"
             android:layout_width="318dp"
-            android:layout_height="700dp"
+            android:layout_height="450dp"
             android:background="@drawable/esquinas_layout"
             android:backgroundTint="#4D707070"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +35,7 @@
                     android:layout_width="261dp"
                     android:layout_height="wrap_content"
                     android:paddingTop="15dp"
-                    android:text="Recordatorio"
+                    android:text="Categoría"
                     android:textAlignment="center"
                     android:textColor="#F44336"
                     android:textSize="9pt"
@@ -54,39 +54,33 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
 
-                <EditText
-                    android:id="@+id/editTextTextEmailAddress"
-                    android:layout_width="261dp"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="20dp"
-                    android:background="@drawable/esquinas_text"
-                    android:editable="false"
-                    android:ems="10"
-                    android:inputType="textEmailAddress"
-                    android:text="09 : 00 AM"
-                    android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="40sp" />
-
-
                 <LinearLayout
                     android:id="@+id/linearLayout2"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="60dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/esquinas_layout"
                     android:backgroundTint="@color/cafe"
-                    android:onClick="abrirRepetir"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.47"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView7">
 
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:editable="false" />
+
                     <LinearLayout
-                        android:layout_width="204dp"
-                        android:layout_height="70dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -94,39 +88,42 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="15dp"
-                            android:text="Repetir"
+                            android:layout_marginTop="10dp"
+                            android:text="Salud"
                             android:textColor="@color/white"
                             android:textSize="22sp" />
 
                     </LinearLayout>
 
-                    <ImageView
-                        android:id="@+id/imageView2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/adelante" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/linearLayout3"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="60dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/esquinas_layout"
                     android:backgroundTint="@color/cafe"
-                    android:onClick="abrirSonido"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.47"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView7">
 
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:editable="false" />
+
                     <LinearLayout
-                        android:layout_width="204dp"
-                        android:layout_height="70dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -134,39 +131,42 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="15dp"
-                            android:text="Sonido"
+                            android:layout_marginTop="10dp"
+                            android:text="Trabajo"
                             android:textColor="@color/white"
                             android:textSize="22sp" />
 
                     </LinearLayout>
 
-                    <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/adelante" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/linearLayout4"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="60dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/esquinas_layout"
                     android:backgroundTint="@color/cafe"
-                    android:onClick="abrirCategoria"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.47"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView7">
 
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:editable="false" />
+
                     <LinearLayout
-                        android:layout_width="204dp"
-                        android:layout_height="70dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -174,39 +174,42 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="15dp"
-                            android:text="Categoría"
+                            android:layout_marginTop="10dp"
+                            android:text="Universidad"
                             android:textColor="@color/white"
                             android:textSize="22sp" />
 
                     </LinearLayout>
 
-                    <ImageView
-                        android:id="@+id/imageView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/adelante" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/linearLayout5"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="60dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="8dp"
                     android:background="@drawable/esquinas_layout"
                     android:backgroundTint="@color/cafe"
-                    android:onClick="abrirEtiqueta"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.47"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView7">
 
+                    <RadioButton
+                        android:id="@+id/radioButton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:editable="false" />
+
                     <LinearLayout
-                        android:layout_width="204dp"
-                        android:layout_height="70dp"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -214,59 +217,13 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
-                            android:layout_marginTop="15dp"
-                            android:text="Etiqueta"
+                            android:layout_marginTop="10dp"
+                            android:text="Personal"
                             android:textColor="@color/white"
                             android:textSize="22sp" />
 
                     </LinearLayout>
 
-                    <ImageView
-                        android:id="@+id/imageView5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/adelante" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/linearLayout"
-                    android:layout_width="match_parent"
-                    android:layout_height="70dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="8dp"
-                    android:background="@drawable/esquinas_layout"
-                    android:backgroundTint="@color/cafe"
-                    android:onClick="abrirMapa"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.47"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView7">
-
-                    <LinearLayout
-                        android:layout_width="204dp"
-                        android:layout_height="70dp"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="20dp"
-                            android:layout_marginTop="15dp"
-                            android:text="Mapa"
-                            android:textColor="@color/white"
-                            android:textSize="22sp" />
-
-                    </LinearLayout>
-
-                    <ImageView
-                        android:id="@+id/imageView"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
-                        android:src="@drawable/adelante" />
                 </LinearLayout>
 
                 <TextView
@@ -282,7 +239,7 @@
                     android:layout_height="58dp"
                     android:background="@drawable/btn_cafe"
                     android:onClick="atrasRecordatorio"
-                    android:text="Atrás"
+                    android:text="Cancelar"
                     android:textAlignment="center"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
