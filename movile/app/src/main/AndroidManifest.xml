@@ -12,19 +12,22 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".LugarAlarmaActivity"
+            android:name=".AgregarRecordatorioActivity"
             android:exported="false" />
         <activity
-            android:name=".MensajeAlarmaActivity"
+            android:name=".ui.ui.alarma.alarma.LugarAlarmaActivity"
             android:exported="false" />
         <activity
-            android:name=".SonidoAlarmaActivity"
+            android:name=".ui.ui.alarma.alarma.MensajeAlarmaActivity"
             android:exported="false" />
         <activity
-            android:name=".RepetirAlarmaActivity"
+            android:name=".ui.ui.alarma.alarma.SonidoAlarmaActivity"
             android:exported="false" />
         <activity
-            android:name=".AgregarAlarmaActivity"
+            android:name=".ui.ui.alarma.alarma.RepetirAlarmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.alarma.alarma.AgregarAlarmaActivity"
             android:exported="false" />
         <activity
             android:name=".ui.ui.alarma.lugar.LugarFragment"

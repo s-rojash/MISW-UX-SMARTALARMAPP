@@ -6,4 +6,349 @@
     android:layout_height="match_parent"
     tools:context=".ui.ui.alarma.alarma.SonidoAlarmaActivity">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context=".ui.MainActivity">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="318dp"
+            android:layout_height="700dp"
+            android:background="@drawable/esquinas_layout"
+            android:backgroundTint="#4D707070"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="306dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="25dp"
+                android:paddingRight="18dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15dp"
+                    android:text="Sonido"
+                    android:textAlignment="center"
+                    android:textColor="#F44336"
+                    android:textSize="9pt"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="#707070"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <LinearLayout
+                    android:layout_width="261dp"
+                    android:layout_height="49dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="18dp">
+
+                    <Switch
+                        android:id="@+id/switch5"
+                        android:layout_width="147dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:thumbTint="@drawable/switch_inactivo"
+                        android:trackTint="@drawable/switch_activo" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="261dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingTop="15dp"
+                        android:text="Vibración"
+                        android:textAlignment="center"
+                        android:textColor="#707070"
+                        android:textSize="9pt" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="#707070"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="261dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:text="Tonos"
+                    android:textColor="#707070"
+                    android:textSize="9pt" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/esquinas_layout"
+                    android:backgroundTint="@color/cafe"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.47"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+                    <RadioButton
+                        android:id="@+id/radioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:checked="true"/>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Tono 1"
+                            android:textColor="@color/white"
+                            android:textSize="22sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/esquinas_layout"
+                    android:backgroundTint="@color/cafe"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.47"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Tono 2"
+                            android:textColor="@color/white"
+                            android:textSize="22sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/esquinas_layout"
+                    android:backgroundTint="@color/cafe"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.47"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+                    <RadioButton
+                        android:id="@+id/radioButton4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Tono 3"
+                            android:textColor="@color/white"
+                            android:textSize="22sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/esquinas_layout"
+                    android:backgroundTint="@color/cafe"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.47"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+                    <RadioButton
+                        android:id="@+id/radioButton5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Tono 4"
+                            android:textColor="@color/white"
+                            android:textSize="22sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/esquinas_layout"
+                    android:backgroundTint="@color/cafe"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.47"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+                    <RadioButton
+                        android:id="@+id/radioButton6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:text="Tono 5"
+                            android:textColor="@color/white"
+                            android:textSize="22sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="263dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:text=" " />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="257dp"
+                    android:layout_height="58dp"
+                    android:background="@drawable/esquinas_btn_naranja"
+                    android:onClick="atrasAlarma"
+                    android:text="Aceptar"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textColorHint="#F44336"
+                    android:textSize="9pt" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="263dp"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="1dp"
+                    android:text=" " />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="257dp"
+                    android:layout_height="58dp"
+                    android:background="@drawable/btn_cafe"
+                    android:onClick="atrasAlarma"
+                    android:text="Cancelar"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/cafe"
+                    android:textSize="9pt" />
+            </LinearLayout>
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
