@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./NotoSans-Bold.ttf');
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E2E3E5;
+  border: 15px solid #E2E3E5;
+}
+
+.logo {
+  margin-right: auto; // alinea a la izquierda
+}
+
+.tabs {
+  display: flex;
+  justify-content: center; // centra horizontalmente
+}
+
+.buttons {
+  margin-left: auto; // alinea a la derecha
+}
+
+.mat-display-1 {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login-button {
+  background-color: black;
+  color: white;
+  width: 130px;
+  height: 40px;
+  margin: 5px;
+  font-family:"Segoe UI";
+  font-size:"16";
+  background-color: black;
+  border-radius: 10px;
+}
+
+.bienvenido {
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+  font-family: "Noto Sans";
+}
+
+.usuario {
+
+  font-weight: bold;
+  color: #D94333;
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.logout {
+  margin-left: 180px;
+}

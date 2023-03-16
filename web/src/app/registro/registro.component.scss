@@ -1,0 +1,167 @@
+.input-icon {
+  position: relative;
+  display: inline-block;
+
+}
+
+.input-icon input[type="text"] {
+  padding-left: 40px; /* Para dejar espacio al icono */
+  border: 1px solid #000000;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  margin: 0 auto; /* Alinea los inputs al centro */
+}
+
+.input-icon input[type="password"] {
+  padding-left: 40px; /* Para dejar espacio al icono */
+  border: 1px solid #000000;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  margin: 0 auto; /* Alinea los inputs al centro */
+}
+
+
+.input-icon .icon {
+  position: absolute;
+  top: 15px;
+  border:10px;
+  left: 100px;
+  width: 20px; /* Ancho del icono */
+  height: 20px; /* Alto del icono */
+  pointer-events: none; /* Para que el icono no sea interactivo */
+  z-index: 1; /* Para que el icono esté sobre el input */
+  background-image: url('/user.png'); /* Ruta de la imagen del icono */
+  background-repeat: no-repeat;
+  background-size: contain; /* Para que el icono se ajuste al tamaño del contenedor */
+}
+
+.input-icon .icon-passwd {
+  position: absolute;
+  top: 15px;
+  border:10px;
+  left: 100px;
+  width: 20px; /* Ancho del icono */
+  height: 20px; /* Alto del icono */
+  pointer-events: none; /* Para que el icono no sea interactivo */
+  z-index: 1; /* Para que el icono esté sobre el input */
+  background-image: url('/passw.png'); /* Ruta de la imagen del icono */
+  background-repeat: no-repeat;
+  background-size: contain; /* Para que el icono se ajuste al tamaño del contenedor */
+}
+
+.input-icon .icon-correo {
+  position: absolute;
+  top: 15px;
+  border:10px;
+  left: 100px;
+  width: 20px; /* Ancho del icono */
+  height: 20px; /* Alto del icono */
+  pointer-events: none; /* Para que el icono no sea interactivo */
+  z-index: 1; /* Para que el icono esté sobre el input */
+  background-image: url('./correo.png'); /* Ruta de la imagen del icono */
+  background-repeat: no-repeat;
+  background-size: contain; /* Para que el icono se ajuste al tamaño del contenedor */
+}
+
+
+.login-button {
+  background-color: black;
+  color: white;
+  width: 130px;
+  height: 40px;
+  margin: 5px;
+  font-family:"Segoe UI";
+  font-size: 16px;
+  background-color: black;
+  border-radius: 10px;
+
+}
+
+
+.container {
+  margin: 100px auto 0;
+  padding: 20px;
+  width: 417px;
+  height: 584px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 10px;
+
+}
+
+.input-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+
+}
+
+.input-icon {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+
+
+}
+
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.forgot-password-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+
+.container div:first-child {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top:  80px;
+  margin-bottom: 0px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: black;
+  margin: 20px 0;
+  margin-bottom: 80px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: -80px;
+
+}
+
+.ok-button-class {
+  background-color: black;
+  color: white;
+}
