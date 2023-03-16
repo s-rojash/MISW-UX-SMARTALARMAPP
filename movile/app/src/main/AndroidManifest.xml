@@ -12,6 +12,39 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".LugarAlarmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MensajeAlarmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SonidoAlarmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RepetirAlarmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgregarAlarmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.alarma.lugar.LugarFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.alarma.lugar.AgregarLugarFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.alarma.lugar.MensajeLugarFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.alarma.espacio.EspacioFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.alarma.espacio.AgregarEspacioFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.alarma.espacio.MensajeEspacioFragment"
+            android:exported="false" />
+        <activity
             android:name=".ui.NavegadorActivity"
             android:exported="false"
             android:screenOrientation="portrait">
